@@ -30,6 +30,8 @@
 		6978352F1C1B50E8000BC627 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6978352A1C1B50E8000BC627 /* ParseFacebookUtilsV4.framework */; };
 		697835301C1B50E8000BC627 /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6978352B1C1B50E8000BC627 /* ParseTwitterUtils.framework */; };
 		697835311C1B50E8000BC627 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6978352C1C1B50E8000BC627 /* ParseUI.framework */; };
+		697835341C1B929A000BC627 /* add-bags-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 697835321C1B929A000BC627 /* add-bags-01.png */; };
+		697835351C1B929A000BC627 /* add-camera-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 697835331C1B929A000BC627 /* add-camera-01.png */; };
 		697D80901BFB92BA00CA27D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 697D808F1BFB92BA00CA27D2 /* main.m */; };
 		697D80931BFB92BA00CA27D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 697D80921BFB92BA00CA27D2 /* AppDelegate.m */; };
 		697D80961BFB92BA00CA27D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 697D80951BFB92BA00CA27D2 /* ViewController.m */; };
@@ -95,6 +97,8 @@
 		6978352A1C1B50E8000BC627 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
 		6978352B1C1B50E8000BC627 /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
 		6978352C1C1B50E8000BC627 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		697835321C1B929A000BC627 /* add-bags-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add-bags-01.png"; sourceTree = "<group>"; };
+		697835331C1B929A000BC627 /* add-camera-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add-camera-01.png"; sourceTree = "<group>"; };
 		697D808B1BFB92BA00CA27D2 /* Drawers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drawers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		697D808F1BFB92BA00CA27D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		697D80911BFB92BA00CA27D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -220,6 +224,8 @@
 		697D808E1BFB92BA00CA27D2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				697835321C1B929A000BC627 /* add-bags-01.png */,
+				697835331C1B929A000BC627 /* add-camera-01.png */,
 				697835241C1B4C78000BC627 /* closet-add-01.png */,
 				6961C3091C0CF69B004200DA /* closet-accessories-01.png */,
 				6961C30A1C0CF69B004200DA /* closet-bottoms-01.png */,
@@ -356,6 +362,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				697835351C1B929A000BC627 /* add-camera-01.png in Resources */,
 				697D80A11BFB92BA00CA27D2 /* LaunchScreen.storyboard in Resources */,
 				6961C3141C0CF69B004200DA /* closet-tops-01.png in Resources */,
 				6961C3101C0CF69B004200DA /* closet-bottoms-01.png in Resources */,
@@ -363,6 +370,7 @@
 				6961C3121C0CF69B004200DA /* closet-outfits-01.png in Resources */,
 				697835251C1B4C78000BC627 /* closet-add-01.png in Resources */,
 				697D80991BFB92BA00CA27D2 /* Main.storyboard in Resources */,
+				697835341C1B929A000BC627 /* add-bags-01.png in Resources */,
 				6961C3111C0CF69B004200DA /* closet-other-01.png in Resources */,
 				696125751C0BC62700359DA0 /* login icon.png in Resources */,
 				6961C3131C0CF69B004200DA /* closet-shoes-01.png in Resources */,
