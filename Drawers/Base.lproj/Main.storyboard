@@ -86,7 +86,7 @@
             </objects>
             <point key="canvasLocation" x="166" y="180"/>
         </scene>
-        <!--View Controller-->
+        <!--Closet-->
         <scene sceneID="5jV-wv-3Ll">
             <objects>
                 <viewController id="2wz-ym-1nm" sceneMemberID="viewController">
@@ -204,13 +204,13 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="more" id="MDd-PW-4Wn"/>
+                    <tabBarItem key="tabBarItem" title="Closet" image="TabDresser" id="MDd-PW-4Wn"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0gR-r7-R2h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1127" y="180"/>
         </scene>
-        <!--View Controller-->
+        <!--Friends-->
         <scene sceneID="rm1-Ks-xK9">
             <objects>
                 <viewController id="dek-aq-Wef" sceneMemberID="viewController">
@@ -224,13 +224,13 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="more" id="VeF-a5-Mle"/>
+                    <tabBarItem key="tabBarItem" title="Friends" image="TabFriends" id="VeF-a5-Mle"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LqP-UY-b4b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="947" y="886"/>
         </scene>
-        <!--View Controller-->
+        <!--Home-->
         <scene sceneID="hSP-pj-A0e">
             <objects>
                 <viewController id="nZA-wA-Sva" sceneMemberID="viewController">
@@ -281,7 +281,9 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="more" id="5M0-vP-hB4"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="TabHome" selectedImage="TabHome" id="5M0-vP-hB4">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jPf-1N-8Xw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -560,7 +562,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="more" id="XhO-tX-NSs"/>
+                    <tabBarItem key="tabBarItem" title="Add" image="TabAdd" id="XhO-tX-NSs"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sai-Fk-bF1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -568,6 +570,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="TabAdd" width="30" height="30"/>
+        <image name="TabDresser" width="30" height="30"/>
+        <image name="TabFriends" width="30" height="30"/>
+        <image name="TabHome" width="30" height="30"/>
         <image name="closet-accessories-01.png" width="1800" height="1800"/>
         <image name="closet-bottoms-01.png" width="1800" height="1800"/>
         <image name="closet-other-01.png" width="1800" height="1800"/>

@@ -36,10 +36,6 @@
 		697D80A11BFB92BA00CA27D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 697D809F1BFB92BA00CA27D2 /* LaunchScreen.storyboard */; };
 		697D80AC1BFB92BA00CA27D2 /* DrawersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 697D80AB1BFB92BA00CA27D2 /* DrawersTests.m */; };
 		697D80B71BFB92BA00CA27D2 /* DrawersUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 697D80B61BFB92BA00CA27D2 /* DrawersUITests.m */; };
-		69F4AF3C1C0CCE9F00ED40FC /* tab-add-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 69F4AF381C0CCE9F00ED40FC /* tab-add-01.png */; };
-		69F4AF3D1C0CCE9F00ED40FC /* tab-dresser-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 69F4AF391C0CCE9F00ED40FC /* tab-dresser-01.png */; };
-		69F4AF3E1C0CCE9F00ED40FC /* tab-friends-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 69F4AF3A1C0CCE9F00ED40FC /* tab-friends-01.png */; };
-		69F4AF3F1C0CCE9F00ED40FC /* tab-home-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 69F4AF3B1C0CCE9F00ED40FC /* tab-home-01.png */; };
 		8344FA181C18910E0097E6CE /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8344FA171C18910E0097E6CE /* Bolts.framework */; };
 		8344FA191C18910E0097E6CE /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8344FA171C18910E0097E6CE /* Bolts.framework */; };
 		8344FA1A1C18910E0097E6CE /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8344FA171C18910E0097E6CE /* Bolts.framework */; };
@@ -116,10 +112,6 @@
 		697D80B21BFB92BA00CA27D2 /* DrawersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		697D80B61BFB92BA00CA27D2 /* DrawersUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawersUITests.m; sourceTree = "<group>"; };
 		697D80B81BFB92BA00CA27D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		69F4AF381C0CCE9F00ED40FC /* tab-add-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-add-01.png"; sourceTree = "<group>"; };
-		69F4AF391C0CCE9F00ED40FC /* tab-dresser-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-dresser-01.png"; sourceTree = "<group>"; };
-		69F4AF3A1C0CCE9F00ED40FC /* tab-friends-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-friends-01.png"; sourceTree = "<group>"; };
-		69F4AF3B1C0CCE9F00ED40FC /* tab-home-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-home-01.png"; sourceTree = "<group>"; };
 		8344FA171C18910E0097E6CE /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		8344FA1B1C18912B0097E6CE /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		8344FA1F1C1892070097E6CE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -240,10 +232,6 @@
 				6961C30C1C0CF69B004200DA /* closet-outfits-01.png */,
 				6961C30D1C0CF69B004200DA /* closet-shoes-01.png */,
 				6961C30E1C0CF69B004200DA /* closet-tops-01.png */,
-				69F4AF381C0CCE9F00ED40FC /* tab-add-01.png */,
-				69F4AF391C0CCE9F00ED40FC /* tab-dresser-01.png */,
-				69F4AF3A1C0CCE9F00ED40FC /* tab-friends-01.png */,
-				69F4AF3B1C0CCE9F00ED40FC /* tab-home-01.png */,
 				696125741C0BC62700359DA0 /* login icon.png */,
 				697D808F1BFB92BA00CA27D2 /* main.m */,
 			);
@@ -374,13 +362,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				697D80A11BFB92BA00CA27D2 /* LaunchScreen.storyboard in Resources */,
-				69F4AF3E1C0CCE9F00ED40FC /* tab-friends-01.png in Resources */,
 				6961C3141C0CF69B004200DA /* closet-tops-01.png in Resources */,
-				69F4AF3C1C0CCE9F00ED40FC /* tab-add-01.png in Resources */,
 				6961C3101C0CF69B004200DA /* closet-bottoms-01.png in Resources */,
 				697D809E1BFB92BA00CA27D2 /* Assets.xcassets in Resources */,
-				69F4AF3D1C0CCE9F00ED40FC /* tab-dresser-01.png in Resources */,
-				69F4AF3F1C0CCE9F00ED40FC /* tab-home-01.png in Resources */,
 				6961C3121C0CF69B004200DA /* closet-outfits-01.png in Resources */,
 				697D80991BFB92BA00CA27D2 /* Main.storyboard in Resources */,
 				6961C3111C0CF69B004200DA /* closet-other-01.png in Resources */,
