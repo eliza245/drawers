@@ -205,27 +205,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0gR-r7-R2h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1195" y="128"/>
-        </scene>
-        <!--Friends-->
-        <scene sceneID="rm1-Ks-xK9">
-            <objects>
-                <viewController id="dek-aq-Wef" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="6ae-0I-61i"/>
-                        <viewControllerLayoutGuide type="bottom" id="NfL-j4-iZM"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="NvH-Wb-xVV">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Friends" image="TabFriends" id="VeF-a5-Mle"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="LqP-UY-b4b" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="997" y="910"/>
+            <point key="canvasLocation" x="970" y="171"/>
         </scene>
         <!--Camera-->
         <scene sceneID="SwT-hJ-ye9">
@@ -395,41 +375,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hgC-9y-acM">
-                                <rect key="frame" x="13" y="78" width="150" height="150"/>
-                                <animations/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="50"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="followers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EA9-2q-q6B">
-                                <rect key="frame" x="238" y="112" width="69" height="21"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="#" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dyK-3h-Ys3">
-                                <rect key="frame" x="238" y="74" width="69" height="30"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="following" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U3r-n2-DVd">
-                                <rect key="frame" x="238" y="188" width="69" height="21"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="#" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="v73-fj-mlh">
-                                <rect key="frame" x="238" y="156" width="69" height="30"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ypw-rF-YVm">
                                 <rect key="frame" x="13" y="20" width="35" height="33"/>
                                 <animations/>
@@ -445,6 +390,15 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hgC-9y-acM">
+                                <rect key="frame" x="64" y="76" width="192" height="192"/>
+                                <animations/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="50"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -473,7 +427,6 @@
                         <segue destination="nZA-wA-Sva" kind="relationship" relationship="viewControllers" id="GNa-Tc-8V0"/>
                         <segue destination="2wz-ym-1nm" kind="relationship" relationship="viewControllers" id="TBk-yS-pQO"/>
                         <segue destination="qma-JA-RD6" kind="relationship" relationship="viewControllers" id="vhO-kZ-KMs"/>
-                        <segue destination="dek-aq-Wef" kind="relationship" relationship="viewControllers" id="ofT-3V-AbC"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bhi-Vg-XpB" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -788,13 +741,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sai-Fk-bF1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="224" y="924"/>
+            <point key="canvasLocation" x="223" y="916"/>
         </scene>
     </scenes>
     <resources>
         <image name="TabAdd" width="30" height="30"/>
         <image name="TabDresser" width="30" height="30"/>
-        <image name="TabFriends" width="30" height="30"/>
         <image name="TabHome" width="30" height="30"/>
         <image name="add-bags-01.png" width="1800" height="1800"/>
         <image name="add-camera-01.png" width="1800" height="1800"/>
