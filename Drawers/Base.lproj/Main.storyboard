@@ -232,7 +232,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LqP-UY-b4b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1291" y="934"/>
+            <point key="canvasLocation" x="997" y="910"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="SwT-hJ-ye9">
@@ -274,6 +274,28 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l8z-ce-xHU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="599" y="1706"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="VAb-uv-2gW">
+            <objects>
+                <viewController id="SWP-VA-lmv" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wSx-WP-KHJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="H0W-AZ-BDN">
+                                <rect key="frame" x="25" y="34" width="270" height="360"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xot-Wr-SOJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1074" y="1712"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="pUq-ju-GBD">
@@ -438,6 +460,11 @@
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
+                                <scrollView key="backgroundView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="1OU-zX-pXZ">
+                                    <rect key="frame" x="0.0" y="0.0" width="294" height="260"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <animations/>
+                                </scrollView>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gyK-lK-uwA">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
