@@ -331,7 +331,7 @@
 				TargetAttributes = {
 					697D808A1BFB92BA00CA27D2 = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = WRK74F8KZC;
+						DevelopmentTeam = T4AD989J6U;
 					};
 					697D80A61BFB92BA00CA27D2 = {
 						CreatedOnToolsVersion = 7.1;
@@ -560,7 +560,7 @@
 				INFOPLIST_FILE = Drawers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = "";
-				PRODUCT_BUNDLE_IDENTIFIER = ehh245.Drawers;
+				PRODUCT_BUNDLE_IDENTIFIER = "ehh245.Drawers-nyu";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -579,7 +579,7 @@
 				INFOPLIST_FILE = Drawers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = "";
-				PRODUCT_BUNDLE_IDENTIFIER = ehh245.Drawers;
+				PRODUCT_BUNDLE_IDENTIFIER = "ehh245.Drawers-nyu";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};

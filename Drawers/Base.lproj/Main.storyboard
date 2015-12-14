@@ -227,10 +227,10 @@
             </objects>
             <point key="canvasLocation" x="997" y="910"/>
         </scene>
-        <!--View Controller-->
+        <!--Camera-->
         <scene sceneID="SwT-hJ-ye9">
             <objects>
-                <viewController id="I0Q-rl-sET" sceneMemberID="viewController">
+                <viewController title="Camera" id="I0Q-rl-sET" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9cz-cb-iPH"/>
                         <viewControllerLayoutGuide type="bottom" id="PLc-Vz-1xr"/>
@@ -272,10 +272,10 @@
             </objects>
             <point key="canvasLocation" x="599" y="1706"/>
         </scene>
-        <!--View Controller-->
+        <!--Edit Photo-->
         <scene sceneID="VAb-uv-2gW">
             <objects>
-                <viewController id="SWP-VA-lmv" sceneMemberID="viewController">
+                <viewController title="Edit Photo" id="SWP-VA-lmv" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xW7-0W-4gW"/>
                         <viewControllerLayoutGuide type="bottom" id="tF3-jg-twF"/>
@@ -298,10 +298,10 @@
             </objects>
             <point key="canvasLocation" x="1075" y="1706"/>
         </scene>
-        <!--View Controller-->
+        <!--Edit Profile-->
         <scene sceneID="pUq-ju-GBD">
             <objects>
-                <viewController id="cdd-cz-qU5" sceneMemberID="viewController">
+                <viewController title="Edit Profile" id="cdd-cz-qU5" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lBx-1j-UPa"/>
                         <viewControllerLayoutGuide type="bottom" id="jd0-3y-VRb"/>
@@ -478,12 +478,12 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bhi-Vg-XpB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="370" y="114"/>
+            <point key="canvasLocation" x="370" y="171"/>
         </scene>
-        <!--View Controller-->
+        <!--Search Closet-->
         <scene sceneID="u4E-DZ-pHT">
             <objects>
-                <viewController id="END-SL-lT3" sceneMemberID="viewController">
+                <viewController title="Search Closet" id="END-SL-lT3" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3Za-7U-oME"/>
                         <viewControllerLayoutGuide type="bottom" id="tSq-BK-D51"/>
@@ -583,7 +583,7 @@
                                 <state key="normal" title="Button" image="closet-other-01.png"/>
                             </button>
                             <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="V0x-c8-TOu">
-                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                                 <animations/>
                                 <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.5"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -598,10 +598,10 @@
             </objects>
             <point key="canvasLocation" x="112" y="1717"/>
         </scene>
-        <!--view3-->
+        <!--Add-->
         <scene sceneID="i8y-Dx-vET">
             <objects>
-                <viewController storyboardIdentifier="view3" title="view3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="qma-JA-RD6" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="view3" title="Add" useStoryboardIdentifierAsRestorationIdentifier="YES" id="qma-JA-RD6" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Kfv-Wh-O83"/>
                         <viewControllerLayoutGuide type="bottom" id="M0w-Fc-hDL"/>
@@ -809,6 +809,6 @@
         <image name="settings.png" width="896" height="896"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="OC4-zL-SkY"/>
+        <segue reference="GNa-Tc-8V0"/>
     </inferredMetricsTieBreakers>
 </document>
