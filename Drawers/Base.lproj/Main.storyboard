@@ -51,7 +51,7 @@
                                     <rect key="frame" x="74" y="442" width="115" height="30"/>
                                 </variation>
                                 <connections>
-                                    <segue destination="nZA-wA-Sva" kind="push" id="BMP-uO-Rg7"/>
+                                    <segue destination="T1O-sz-WJX" kind="push" id="7Dt-xR-TsX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3tI-JT-kW0">
@@ -101,48 +101,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="closet-outfits-01.png" translatesAutoresizingMaskIntoConstraints="NO" id="cXR-bC-rk4">
-                                <rect key="frame" x="28" y="28" width="100" height="100"/>
-                                <animations/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="48" y="44" width="128" height="128"/>
-                                </variation>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="closet-tops-01.png" translatesAutoresizingMaskIntoConstraints="NO" id="3cs-c4-ZUU">
-                                <rect key="frame" x="200" y="28" width="100" height="100"/>
-                                <animations/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="240" y="44" width="128" height="128"/>
-                                </variation>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="closet-bottoms-01.png" translatesAutoresizingMaskIntoConstraints="NO" id="bam-VV-ute">
-                                <rect key="frame" x="28" y="192" width="100" height="100"/>
-                                <animations/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="48" y="222" width="128" height="128"/>
-                                </variation>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="closet-shoes-01.png" translatesAutoresizingMaskIntoConstraints="NO" id="1Ew-QD-3qu">
-                                <rect key="frame" x="200" y="192" width="100" height="100"/>
-                                <animations/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="240" y="222" width="128" height="128"/>
-                                </variation>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="closet-accessories-01.png" translatesAutoresizingMaskIntoConstraints="NO" id="YaY-fz-4Rq">
-                                <rect key="frame" x="28" y="355" width="100" height="100"/>
-                                <animations/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="48" y="399" width="128" height="128"/>
-                                </variation>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="closet-other-01.png" translatesAutoresizingMaskIntoConstraints="NO" id="KcO-kT-yND">
-                                <rect key="frame" x="200" y="355" width="100" height="100"/>
-                                <animations/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="240" y="399" width="128" height="128"/>
-                                </variation>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="C L O S E T" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Ak-Gy-Ytc">
                                 <rect key="frame" x="35" y="130" width="87" height="21"/>
                                 <animations/>
@@ -203,6 +161,36 @@
                                     <rect key="frame" x="261" y="358" width="87" height="21"/>
                                 </variation>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cL0-sM-Dm6">
+                                <rect key="frame" x="28" y="28" width="100" height="100"/>
+                                <animations/>
+                                <state key="normal" title="Button" image="closet-outfits-01.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="36D-hq-p6G">
+                                <rect key="frame" x="200" y="28" width="100" height="100"/>
+                                <animations/>
+                                <state key="normal" title="Button" image="closet-tops-01.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MRA-gI-gMV">
+                                <rect key="frame" x="200" y="192" width="100" height="100"/>
+                                <animations/>
+                                <state key="normal" title="Button" image="closet-shoes-01.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4HC-g6-g4H">
+                                <rect key="frame" x="28" y="192" width="100" height="100"/>
+                                <animations/>
+                                <state key="normal" title="Button" image="closet-bottoms-01.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2W7-td-VfX">
+                                <rect key="frame" x="28" y="355" width="100" height="100"/>
+                                <animations/>
+                                <state key="normal" title="Button" image="closet-accessories-01.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3bt-1y-Trd">
+                                <rect key="frame" x="200" y="355" width="100" height="100"/>
+                                <animations/>
+                                <state key="normal" title="Button" image="closet-other-01.png"/>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -264,6 +252,88 @@
             </objects>
             <point key="canvasLocation" x="947" y="886"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="pUq-ju-GBD">
+            <objects>
+                <viewController id="cdd-cz-qU5" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aFO-jS-fCS"/>
+                        <viewControllerLayoutGuide type="bottom" id="aH3-sO-vfz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gsh-Ji-zM8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6ql-fj-xrW">
+                                <rect key="frame" x="77" y="49" width="167" height="167"/>
+                                <animations/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="50"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="edit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A3D-aD-qny">
+                                <rect key="frame" x="146" y="224" width="29" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y5U-Xn-mm9">
+                                <rect key="frame" x="29" y="459" width="115" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.15610527099999999" green="0.17527507810000001" blue="0.435842803" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="S A V E">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pgv-CP-iDZ">
+                                <rect key="frame" x="169" y="459" width="115" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.20053861997999622" green="0.435842803" blue="0.15186715120815045" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="C A N C E L">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Mxh-YJ-9ox">
+                                <rect key="frame" x="55" y="275" width="210" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ywd-uY-0eC">
+                                <rect key="frame" x="55" y="328" width="210" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="re-enter password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Qe4-m0-bq1">
+                                <rect key="frame" x="55" y="377" width="210" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="3On-9R-J1t"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p1r-zc-lS7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="274" y="-811"/>
+        </scene>
         <!--Home-->
         <scene sceneID="hSP-pj-A0e">
             <objects>
@@ -277,7 +347,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hgC-9y-acM">
-                                <rect key="frame" x="13" y="56" width="150" height="150"/>
+                                <rect key="frame" x="13" y="78" width="150" height="150"/>
                                 <animations/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -286,31 +356,46 @@
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="followers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EA9-2q-q6B">
-                                <rect key="frame" x="238" y="90" width="69" height="21"/>
+                                <rect key="frame" x="238" y="112" width="69" height="21"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="#" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dyK-3h-Ys3">
-                                <rect key="frame" x="238" y="52" width="69" height="30"/>
+                                <rect key="frame" x="238" y="74" width="69" height="30"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="following" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U3r-n2-DVd">
-                                <rect key="frame" x="238" y="166" width="69" height="21"/>
+                                <rect key="frame" x="238" y="188" width="69" height="21"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="#" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="v73-fj-mlh">
-                                <rect key="frame" x="238" y="134" width="69" height="30"/>
+                                <rect key="frame" x="238" y="156" width="69" height="30"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ypw-rF-YVm">
+                                <rect key="frame" x="13" y="20" width="35" height="33"/>
+                                <animations/>
+                                <state key="normal" title="Button" image="settings.png"/>
+                                <connections>
+                                    <segue destination="cdd-cz-qU5" kind="push" id="bcb-df-Ekd"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="u s e r n a m e" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5gc-nD-1yl">
+                                <rect key="frame" x="107" y="28" width="107" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -322,7 +407,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jPf-1N-8Xw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="778" y="-398"/>
+            <point key="canvasLocation" x="868" y="-540"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="vML-Z2-jUz">
@@ -358,48 +443,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="closet-add-01.png" translatesAutoresizingMaskIntoConstraints="NO" id="58q-sF-TaE">
-                                <rect key="frame" x="28" y="56" width="100" height="100"/>
-                                <animations/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="48" y="44" width="128" height="128"/>
-                                </variation>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="closet-tops-01.png" translatesAutoresizingMaskIntoConstraints="NO" id="NSE-Ry-MFJ">
-                                <rect key="frame" x="200" y="56" width="100" height="100"/>
-                                <animations/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="240" y="44" width="128" height="128"/>
-                                </variation>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="closet-bottoms-01.png" translatesAutoresizingMaskIntoConstraints="NO" id="bF8-vT-26Y">
-                                <rect key="frame" x="28" y="220" width="100" height="100"/>
-                                <animations/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="48" y="222" width="128" height="128"/>
-                                </variation>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="closet-shoes-01.png" translatesAutoresizingMaskIntoConstraints="NO" id="EdM-cg-zJm">
-                                <rect key="frame" x="200" y="220" width="100" height="100"/>
-                                <animations/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="240" y="222" width="128" height="128"/>
-                                </variation>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="closet-accessories-01.png" translatesAutoresizingMaskIntoConstraints="NO" id="jjh-Ij-79p">
-                                <rect key="frame" x="28" y="383" width="100" height="100"/>
-                                <animations/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="48" y="399" width="128" height="128"/>
-                                </variation>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="closet-other-01.png" translatesAutoresizingMaskIntoConstraints="NO" id="0r7-hO-FDh">
-                                <rect key="frame" x="200" y="383" width="100" height="100"/>
-                                <animations/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="240" y="399" width="128" height="128"/>
-                                </variation>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A D D" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CqR-bg-Hom">
                                 <rect key="frame" x="35" y="158" width="87" height="21"/>
                                 <animations/>
@@ -460,10 +503,41 @@
                                     <rect key="frame" x="261" y="358" width="87" height="21"/>
                                 </variation>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GHH-9Q-bVt">
+                                <rect key="frame" x="200" y="56" width="100" height="100"/>
+                                <animations/>
+                                <state key="normal" title="Button" image="closet-tops-01.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0NM-Y5-qfi">
+                                <rect key="frame" x="28" y="220" width="100" height="100"/>
+                                <animations/>
+                                <state key="normal" title="Button" image="closet-bottoms-01.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SBJ-J5-Bmd">
+                                <rect key="frame" x="28" y="383" width="100" height="100"/>
+                                <animations/>
+                                <state key="normal" title="Button" image="closet-accessories-01.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IUn-op-V7Z">
+                                <rect key="frame" x="200" y="220" width="100" height="100"/>
+                                <animations/>
+                                <state key="normal" title="Button" image="closet-shoes-01.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s02-9F-Gvn">
+                                <rect key="frame" x="200" y="383" width="100" height="100"/>
+                                <animations/>
+                                <state key="normal" title="Button" image="closet-other-01.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5pR-hn-EDQ">
+                                <rect key="frame" x="28" y="56" width="100" height="100"/>
+                                <animations/>
+                                <state key="normal" title="Button" image="closet-add-01.png"/>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="liV-hB-bZQ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JZu-EH-ZFS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -583,14 +657,6 @@
                                     <rect key="frame" x="261" y="524" width="87" height="21"/>
                                 </variation>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="add-bags-01.png" translatesAutoresizingMaskIntoConstraints="NO" id="RgY-KI-Euf">
-                                <rect key="frame" x="96" y="276" width="128" height="128"/>
-                                <animations/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="add-camera-01.png" translatesAutoresizingMaskIntoConstraints="NO" id="K6K-24-CjF">
-                                <rect key="frame" x="96" y="78" width="128" height="128"/>
-                                <animations/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I M P O R T" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TE8-F3-rWj">
                                 <rect key="frame" x="117" y="214" width="87" height="21"/>
                                 <animations/>
@@ -611,6 +677,19 @@
                                     <rect key="frame" x="261" y="178" width="87" height="21"/>
                                 </variation>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YiI-iL-2Wg">
+                                <rect key="frame" x="95" y="75" width="131" height="131"/>
+                                <animations/>
+                                <state key="normal" title="Button" image="add-camera-01.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yjB-Nd-INF">
+                                <rect key="frame" x="95" y="273" width="131" height="131"/>
+                                <animations/>
+                                <state key="normal" title="Button" image="add-bags-01.png"/>
+                                <connections>
+                                    <segue destination="END-SL-lT3" kind="push" id="Ium-BZ-68j"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -669,8 +748,6 @@
         <image name="closet-shoes-01.png" width="1800" height="1800"/>
         <image name="closet-tops-01.png" width="1800" height="1800"/>
         <image name="login icon.png" width="598" height="598"/>
+        <image name="settings.png" width="896" height="896"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="BMP-uO-Rg7"/>
-    </inferredMetricsTieBreakers>
 </document>

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		694005051C1F22B300F562EE /* report-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 694005031C1F22B300F562EE /* report-01.png */; };
+		694005061C1F22B300F562EE /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 694005041C1F22B300F562EE /* settings.png */; };
 		696125751C0BC62700359DA0 /* login icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 696125741C0BC62700359DA0 /* login icon.png */; };
 		696125841C0CC43000359DA0 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6961257B1C0CC43000359DA0 /* CFNetwork.framework */; };
 		696125851C0CC43000359DA0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6961257C1C0CC43000359DA0 /* CoreGraphics.framework */; };
@@ -74,6 +76,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		694005031C1F22B300F562EE /* report-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "report-01.png"; sourceTree = "<group>"; };
+		694005041C1F22B300F562EE /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
 		696125741C0BC62700359DA0 /* login icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login icon.png"; sourceTree = "<group>"; };
 		6961257B1C0CC43000359DA0 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		6961257C1C0CC43000359DA0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -224,6 +228,8 @@
 		697D808E1BFB92BA00CA27D2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				694005031C1F22B300F562EE /* report-01.png */,
+				694005041C1F22B300F562EE /* settings.png */,
 				697835321C1B929A000BC627 /* add-bags-01.png */,
 				697835331C1B929A000BC627 /* add-camera-01.png */,
 				697835241C1B4C78000BC627 /* closet-add-01.png */,
@@ -364,9 +370,11 @@
 			files = (
 				697835351C1B929A000BC627 /* add-camera-01.png in Resources */,
 				697D80A11BFB92BA00CA27D2 /* LaunchScreen.storyboard in Resources */,
+				694005051C1F22B300F562EE /* report-01.png in Resources */,
 				6961C3141C0CF69B004200DA /* closet-tops-01.png in Resources */,
 				6961C3101C0CF69B004200DA /* closet-bottoms-01.png in Resources */,
 				697D809E1BFB92BA00CA27D2 /* Assets.xcassets in Resources */,
+				694005061C1F22B300F562EE /* settings.png in Resources */,
 				6961C3121C0CF69B004200DA /* closet-outfits-01.png in Resources */,
 				697835251C1B4C78000BC627 /* closet-add-01.png in Resources */,
 				697D80991BFB92BA00CA27D2 /* Main.storyboard in Resources */,
